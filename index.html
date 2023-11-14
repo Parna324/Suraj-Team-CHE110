@@ -9,25 +9,25 @@
 </head>
 
 <body>
-
-    <div class="navbar">
+    <!-- Navigation bar  -->
+    <div class="navbar" id="Home">
         <div class="logo">
-            <img src="./background/logo.jpg" alt="Logo">
+            <img src="./background/bgm7.jpg" alt="Logo">
         </div>
         <div class="search-bar">
             <input type="text" placeholder="Search...">
             <button type="submit">Search</button>
         </div>
         <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <a href="#Home">Home</a>
+            <a href="#Types">Types of Erosion</a>
+            <a href="#prevention">Prevention</a>
+            <a href="#Contact">Contact</a>
         </div>
     </div>
     <!-- hero section of the website here!!!!! -->
 
-    <div class="hero-section">
+    <div class="hero-section" id="Home">
         <div class="hero-content">
             <h1>Soil Erosion </h1>
             <p>“Soil erosion is the natural process in which the topsoil of a field is carried away by physical sources
@@ -35,7 +35,7 @@
             <a href="https://en.wikipedia.org/wiki/Soil_erosion" class="btn1" target="_blank">Learn More</a>
         </div>
     </div>
-    <!-- <hr> -->
+
     <!-- card for the details of the  -->
     <div class="cards">
         <div class="card">
@@ -73,8 +73,8 @@
         </div>
     </div>
     <!-- About section starts from here  -->
-    <h1 class="heading">Types of Soil erosion</h1>
-    <div class="types">
+    <h1 class="heading" id="Types">Types of Soil erosion</h1>
+    <div class="types" id="Types">
         <div class="paragraph-box">
             <h2>Sheet Erosion:
             </h2>
@@ -142,31 +142,73 @@
         </div>
 
     </div>
-<hr>
-<!-- prevention and control measure -->
-<div class="control">
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-</div>
-
-
-
-
-
-    <!-- Your content goes here -->
-    <div class="contact-form-container">
+    <hr>
+    <!-- prevention and control measure -->
+    <h1 class="heading" id="Prevention">Preventions</h1>
+    <div class="control" id="prevention">
+        <div class="card1">
+            <img src="./background/bgm1.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Vegetative Cover</h2>
+                <p>Plant cover crops, grass, and other vegetation to stabilize the soil with their root systems,
+                    preventing erosion. This includes practices like contour plowing to slow down water runoff.</p>
+                <a href="https://sitoolkit.com/the-five-domains/environmental/vegetative-cover" class="btn">Read
+                    More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="./background/bgm2.webp" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Terracing</h2>
+                <p>Create terraces on sloping land to reduce water runoff and allow for better water absorption by the
+                    soil.</p>
+                <a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/terracing#:~:text=Land%20terracing%2C%20a%20land%20management,et%20al.%2C%202014)."
+                    class="btn">Read
+                    More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="./background/bgm3.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Windbreaks</h2>
+                <p>Establish windbreaks with trees and shrubs to reduce wind erosion by slowing down the wind and
+                    preventing the displacement of soil particles</p>
+                <a href="https://www.fs.usda.gov/nac/practices/windbreaks.php" class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="./background/bgm4.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Mulching</h2>
+                <p>Establish windbreaks with trees and shrubs to reduce wind erosion by slowing down the wind and
+                    preventing the displacement of soil particles.</p>
+                <a href="https://www.jkcooper.com.au/what-is-mulching/#:~:text=Mulching%20is%20a%20widely%2Dpracticed,the%20condition%20of%20the%20soil."
+                    class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="./background/bgm5.avif" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Cover Cropping</h2>
+                <p>Plant cover crops during non-growing seasons to protect the soil from erosion, improve soil
+                    structure, and add organic matter.</p>
+                <a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/cover-crop#:~:text=A%20cover%20crop%20is%20defined,Society%20of%20America%2C%202008)."
+                    class="btn">Read More</a>
+            </div>
+        </div>
+        <div class="card1">
+            <img src="./background/bgm6.jpg" alt="Card Image 2">
+            <div class="card-content">
+                <h2>Conservation Tillage</h2>
+                <p>Implement minimal or no-till farming methods to maintain soil structure and reduce erosion by leaving
+                    crop residues on the field.</p>
+                <a href="https://www.sciencedirect.com/topics/earth-and-planetary-sciences/conservation-tillage#:~:text=Conservation%20tillage%20means%20any%20minimal,most%20effective%20soil%20conservation%20system."
+                    class="btn">Read More</a>
+            </div>
+        </div>
+    </div>
+    <!-- <contact form  -->
+    <div class="contact-form-container" id="Contact">
         <form class="contact-form">
             <h2>Contact Us</h2>
 
@@ -182,6 +224,44 @@
             <button type="submit">Submit</button>
         </form>
     </div>
+    <!-- footer  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About Us</h2>
+                    <p>Erosion steals from my neighbor and my community.</p>
+                </div>
+
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Types">Types of soil erosion</a></li>
+                        <li><a href="#prevention">prevention</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <p>Email: surajvishwakarma23@lpu.in</p>
+                    <p>Phone: +91 123-456-7890</p>
+                </div>
+
+                <div class="footer-section social">
+                    <h2>Follow Us</h2>
+                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2023 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
