@@ -1,21 +1,22 @@
 html {
   scroll-behavior: smooth;
 }
+/* Css reset kar diye */
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ececec;
 }
-
+/* nav bar yaha se hai  */
 .navbar {
-  background-color: #f5f5f5; /* White-grayish background */
+  background-color: #f5f5f5; 
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .logo img {
@@ -33,7 +34,6 @@ body {
   padding: 10px;
   width: 80%;
   border: none;
-  /* border-radius: 10px; */
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 .menu a {
-  color: #333; /* Dark gray text color */
+  color: #333; 
   font-weight: 600;
   text-decoration: none;
   padding: 10px 15px;
@@ -56,8 +56,8 @@ body {
 }
 
 .menu a:hover {
-  color: #765de6; /* Lighter gray text color on hover */
-  transform: scale(1.1); /* Optional: Scale effect on hover */
+  color: #765de6; 
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 600px) {
@@ -70,9 +70,10 @@ body {
   }
 }
 /* hero section of the web!!!!!important */
+/* hero section ka card  */
 
 .hero-section {
-  background-image: url("./background/bgm7.jpg"); /* Replace with the path to your background image */
+  background-image: url("./background/bgm7.jpg"); 
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -100,14 +101,14 @@ body {
   padding: 10px 20px;
   font-size: 1.2em;
   text-decoration: none;
-  background-color: #ff6600; /* Orange color, customize as needed */
+  background-color: #ff6600; 
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #cc5500; /* Darker orange color on hover */
+  background-color: #cc5500; 
 }
 
 /* background card */
@@ -123,10 +124,10 @@ body {
 .card {
   max-width: 300px;
   margin: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgb(105, 104, 104);
   transition: transform 0.3s ease-in-out;
-  background-color: #d7bdef; /* Purple background color */
-  color: #fff; /* White text color */
+  background-color: #d7bdef;
+  color: #fff; 
   border-radius: 10px;
   overflow: hidden;
   justify-items: center;
@@ -161,14 +162,14 @@ body {
   padding: 10px 20px;
   font-size: 1em;
   text-decoration: none;
-  background-color: #a46cf3; /* Darker purple color, customize as needed */
+  background-color: #a46cf3; 
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #8c40e9; /* Darker color on hover */
+  background-color: #8c40e9; 
 }
 /* heading  */
 .heading {
@@ -177,17 +178,17 @@ body {
   font-weight: bold;
 }
 .paragraph-box {
-  /* border: 2px solid #333; */
+ 
 
   padding: 15px;
   margin: 20px;
   border-radius: 8px;
-  background-color: rgba(255, 253, 253, 0.452); /* 0.9 for 90% transparency */
-  box-shadow: 0 2px 5px rgb(0, 0, 0); /* Box shadow for a subtle lift */
+  background-color: rgba(255, 253, 253, 0.452); 
+  box-shadow: 0 2px 5px rgb(0, 0, 0); 
 }
 
 .paragraph-box p {
-  margin: 0; /* Remove default paragraph margin */
+  margin: 0; 
 }
 
 .paragraph-box h2 {
@@ -205,7 +206,12 @@ body {
   align-items: center;
   justify-items: center;
   /* background: url("./background/bg6.jpg"); */
-  background-color: #d7bdef;
+  border: 2px solid black;
+  border-radius: 8px;
+  /* padding-left: 10px; */
+  margin: 6px;
+  box-shadow: 0 2px 5px rgb(163, 57, 255); 
+  background-color: #d4aaff;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -228,8 +234,8 @@ body {
   margin: 20px;
   box-shadow: 0 4px 8px rgb(162, 104, 233);
   transition: transform 0.3s ease-in-out;
-  background-color: #eedafc; /* Purple background color */
-  color: #000000; /* White text color */
+  background-color: #eedafc; 
+  color: #000000; 
   border-radius: 10px;
   overflow: hidden;
   justify-items: center;
@@ -264,14 +270,14 @@ body {
   padding: 10px 20px;
   font-size: 1em;
   text-decoration: none;
-  background-color: #a46cf3; /* Darker purple color, customize as needed */
+  background-color: #a46cf3; 
   color: #fff;
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background-color: #8c40e9; /* Darker color on hover */
+  background-color: #8c40e9; 
 }
 
 /* contact section of our page */
@@ -335,7 +341,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
 /* Style the footer container */
 .footer {
   background-color: #333;
@@ -374,13 +379,12 @@ body {
   text-decoration: underline;
 }
 
-/* Style the social icons */
+
 .social i {
   font-size: 1.5em;
   margin-right: 10px;
 }
 
-/* Style the bottom part of the footer */
 .footer-bottom {
   background-color: #222;
   padding: 10px 0;
@@ -391,7 +395,6 @@ body {
   margin: 0;
 }
 
-/* Responsive styling */
 @media (max-width: 768px) {
   .footer-section {
     width: 100%;
